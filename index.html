@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto Final Git + HTML/CSS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Proyecto Colaborativo Git</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#tabla">Tabla de Datos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="tabla">
+      <h2>Registro de Usuarios</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Rol</th>
+            <th>Estado</th>
+            <th>Fecha</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>01</td>
+            <td>Carlos Pérez</td>
+            <td>Desarrollador</td>
+            <td>Activo</td>
+            <td>2026-10-01</td>
+          </tr>
+          <tr>
+            <td>02</td>
+            <td>Ana Gómez</td>
+            <td>Diseñadora</td>
+            <td>Activo</td>
+            <td>2026-10-02</td>
+          </tr>
+          <tr>
+            <td>03</td>
+            <td>Luis Martínez</td>
+            <td>Tester</td>
+            <td>Inactivo</td>
+            <td>2026-10-03</td>
+          </tr>
+          <tr>
+            <td>04</td>
+            <td>María Rodríguez</td>
+            <td>Project Manager</td>
+            <td>Activo</td>
+            <td>2026-10-03</td>
+          </tr>
+          <tr>
+            <td>05</td>
+            <td>David Fierro</td>
+            <td>DevOps</td>
+            <td>Activo</td>
+            <td>2026-10-03</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="contacto">
+      <h2>Formulario de Registro</h2>
+      <form>
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 - Proyecto Evaluativo Git/GitHub</p>
+  </footer>
+
+</body>
+</html>
