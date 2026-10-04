@@ -140,3 +140,34 @@ button {
 button:hover {
   background: #d66f1c;
 }
+
+/* ===== Responsividad (max-width: 600px) ===== */
+@media (max-width: 600px) {
+  main {
+    padding: 0 0.5rem;
+  }
+
+  section {
+    padding: 1rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  form {
+    padding: 1rem;
+  }
+
+  button {
+    width: 100%;
+  }
+}
